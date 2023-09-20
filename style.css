@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+
+    height: 100%;
+    width: 100%;
+    
+}
+
+.button{
+    padding: 20px;
+    margin: 0px 2px;
+    border: 3px solid rgb(119, 83, 104);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+                0 0 0 2px rgb(255, 255, 255),
+                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        
+}
+
+.row{
+    margin: 4px 9px;
+}
+
+.row input {
+    border: 2px solid rgb(119, 83, 104);
+    font-size: 22px;
+    padding: 35px 0;
+    margin: 5px 4px;
+    border-radius: 25px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+                0 0 0 2px rgb(255, 255, 255),
+                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
+}
